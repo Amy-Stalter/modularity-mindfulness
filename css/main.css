@@ -81,3 +81,183 @@ li {
 a {
   color: #3783a3;
 }
+
+.light {
+  padding: 1em;
+  border-top: #e2e2e2 .2rem solid;
+  border-bottom: #e2e2e2 .2rem solid;
+  text-align: center;
+}
+
+.p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.viewing {
+  margin-top: 1.5em;
+}
+
+.learn-more {
+  display: block;
+  text-decoration: none;
+  color: #3783a3;
+  border: #e2e2e2 .2rem solid;
+  border-radius: .3rem;
+  padding: .6em;
+}
+
+footer {
+  border-top: #e2e2e2 .2rem solid;
+  text-align: center;
+}
+
+.footer {
+  margin: .8em;
+}
+
+.japan {
+  font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .h1 {
+    text-align: left;
+  }
+
+  .nav {
+    padding: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    padding-left: 1em;
+    font-size: 1rem;
+  }
+
+  .light {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .japan2 {
+    font-size: 1.9rem;
+  }
+
+  .japan3 {
+    font-size: .95rem;
+  }
+
+  .japan {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: .95rem;
+  }
+
+  .banner {
+    margin-top: .5em;
+  }
+
+  .columns {
+    margin-top: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+  }
+
+  .viewing {
+    margin: 0;
+  }
+
+  p {
+    font-size: .9rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .learn-more {
+    font-size: .85em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .japan2 {
+    font-size: 1.5rem;
+    max-width: 30em;
+  }
+
+  .japan3 {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: .75rem;
+  }
+
+  .light {
+    margin-left: 11em;
+    margin-right: 11em;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .japan {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: .85rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    font-size: .85rem;
+  }
+
+  li {
+    padding-left: 1em;
+    font-size: 1rem;
+  }
+
+  .footer {
+    font-size: .85rem;
+  }
+
+  main {
+    margin-bottom: 0;
+  }
+
+}
