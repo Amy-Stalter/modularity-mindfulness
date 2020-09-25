@@ -31,3 +31,19 @@ img {
   display: block;
   width: 100%;
 }
+
+main {
+  margin: 1rem;
+}
+
+.japan2 {
+  font-weight: normal;
+  font-size: 2rem;
+  padding-bottom: .5em;
+}
+
+.japan3 {
+  font-weight: normal;
+  font-size: 1rem;
+  margin-bottom: 1em;
+}
