@@ -47,3 +47,37 @@ main {
   font-size: 1rem;
   margin-bottom: 1em;
 }
+
+header {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin: 0;
+  margin-bottom: 1em;
+}
+
+.banner {
+  margin-bottom: 1.5em;
+}
+
+li {
+  color: #3783a3;
+  font-size: 1rem;
+}
+
+a {
+  color: #3783a3;
+}
